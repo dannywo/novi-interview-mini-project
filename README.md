@@ -20,7 +20,8 @@ Your project today will be to learn just enough about our API to make a call to 
 	- Feel free to add additional info if you like
 - Allow a user to filter the records by name
 - Follow best practices and SOLID principles as much as possible. This project is small so some of that may be overkill, but we'd like to see how you think through code architecture, readability, expandability, etc.
-- Don't spend more than a couple hours!
+- Feel free to introduce any combo of frontend/backend frameworks, etc that you want to use
+- No need to spend more than an hour or two!
 
 ### API Details
 - [Novi AMS API Reference](https://api-docs.noviams.com/)
