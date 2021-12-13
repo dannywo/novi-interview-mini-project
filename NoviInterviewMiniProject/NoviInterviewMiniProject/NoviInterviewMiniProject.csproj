@@ -184,6 +184,7 @@
     <Compile Include="App_Start\StructuremapMvc.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\ThemeParkController.cs" />
     <Compile Include="DependencyResolution\ControllerConvention.cs" />
     <Compile Include="DependencyResolution\DefaultRegistry.cs" />
     <Compile Include="DependencyResolution\IoC.cs" />
@@ -198,6 +199,7 @@
     <Compile Include="Models\Group.cs" />
     <Compile Include="Models\MemberResult.cs" />
     <Compile Include="Models\MembersResponse.cs" />
+    <Compile Include="Models\Membertype.cs" />
     <Compile Include="Models\Personaladdress.cs" />
     <Compile Include="Models\Shippingaddress.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -238,6 +240,7 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\ThemePark\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
