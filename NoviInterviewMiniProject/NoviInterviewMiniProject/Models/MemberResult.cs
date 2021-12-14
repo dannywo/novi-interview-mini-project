@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -36,8 +37,11 @@ namespace NoviInterviewMiniProject.Models
         public object JobTitle { get; set; }
         public string Image { get; set; }
         public DateTime? OriginalJoinDate { get; set; }
+        [Display(Name = "Member Since")]
+        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}")]
         public DateTime? MemberSince { get; set; }
         public DateTime? MembershipExpires { get; set; }
+        [Display(Name = "Member Status")]
         public string MemberStatus { get; set; }
         public object MemberSubStatus { get; set; }
         public bool HideOnWebsite { get; set; }
@@ -46,6 +50,7 @@ namespace NoviInterviewMiniProject.Models
         public bool Approved { get; set; }
         public bool AutoRenew { get; set; }
         public Membertype MemberType { get; set; }
+        [Display(Name = "Customer Type")]
         public string CustomerType { get; set; }
         public Customfields CustomFields { get; set; }
         public string[] SpecifiedSystemFields { get; set; }
