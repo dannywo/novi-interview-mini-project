@@ -38,7 +38,7 @@ namespace NoviInterviewMiniProject.Controllers
                     }   
                     else
                     {
-                        return View(response.ReasonPhrase);
+                        return Content(response.ReasonPhrase);
                     }
 
                 }
